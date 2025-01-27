@@ -11,3 +11,8 @@ replaceImg.src = 'https://ntema.com.ua/uploads/products/66/1d/b-fi4p76u8d_22b5a3
 // Task 3
 const replaceLink = document.querySelector('.link')
 replaceLink.href = 'https://goprokat.ua/en/kvadrokopter-fpv-10-djujmov-dronesky10-25w-elrs-915mhz/'
+// Task 4
+const boxElement = document.querySelector(".ggg");
+const divggg = boxElement.firstElementChild
+divggg.textContent = "a"
+console.log(divggg)
